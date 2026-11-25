@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Grapesyard Project</title>
+<meta name="description" content="Student-run since 2022. We raise money for one school in Korogocho, Nairobi, one project at a time, and post every transfer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="page">
+
+  <div class="pagestreaks" aria-hidden="true">
+    <span class="streak wide p4"></span><span class="streak p1"></span><span class="streak p2"></span><span class="streak p3"></span>
+    <span class="streak wide p7"></span><span class="streak p5"></span><span class="streak p6"></span>
+    <span class="streak p8"></span><span class="streak p9"></span>
+    <span class="streak wide p11"></span><span class="streak p10"></span>
+    <span class="streak wide p13"></span><span class="streak p12"></span>
+  </div>
+
+  <!-- Status line -->
+  <div class="status">
+    <span class="dot"></span>We’re pricing the next project with the school now. <a href="#log">See what’s been funded so far</a>
+  </div>
+
+  <!-- Nav -->
+  <header class="navbar">
+    <nav aria-label="Main" class="container nav">
+      <a href="#top" class="brand">
+        <svg width="22" height="20" viewBox="0 0 26 24" aria-hidden="true"><path d="M2 23V8a11 7 0 0 1 22 0v15" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M8 23V10M13 23V9M18 23V10" stroke="currentColor" stroke-width="2.4"/></svg>
+        <span>Grapesyard</span>
+      </a>
+      <div class="navlinks">
+        <a class="nl" href="#how">How it works</a>
+        <a class="nl" href="#log">Projects</a>
+        <a class="nl" href="#ledger">Ledger</a>
+        <a class="nl" href="#note">About</a>
+        <a class="nl" href="#faq">FAQ</a>
+      </div>
+      <a class="btn btn-sm" href="[DONATION LINK]" rel="noopener noreferrer">Fund the next project</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="top" class="container hero">
+      <div class="hero-copy">
+        <p class="meta">Student-run since 2022 · Korogocho, Nairobi</p>
+        <h1>We raise money for one school in Korogocho, one project at a time.</h1>
+        <p class="lede">The school tells us what it needs and what it costs. Students in Toronto and Kobe raise the full amount, send it to the school, and post every transfer on this page.</p>
+        <div class="actions">
+          <a class="btn" href="[DONATION LINK]" rel="noopener noreferrer">Fund the next project</a>
+          <a class="btn2" href="#ledger">See the ledger</a>
+        </div>
+      </div>
+      <figure class="hero-fig">
+        <div class="ph ph-hero" role="img" aria-label="Photo placeholder: the school gate with students">
+          <span>Photo · school gate, students walking in · 5:4</span>
+        </div>
+        <figcaption>[First name], [grade], Grapesyard School. Photographed during our visit, July 2025.</figcaption>
+      </figure>
+    </section>
+
+    <!-- Numbers -->
+    <section class="container numbers-wrap">
+      <div class="numbers">
+        <div><div class="num">About 1,400</div><div class="num-label">students at the school</div></div>
+        <div><div class="num">15</div><div class="num-label">classrooms with new blackboards</div></div>
+        <div><div class="num">107,000 KSh</div><div class="num-label">sent for roof repairs in 2024</div></div>
+        <div><div class="num accent">$0.00</div><div class="num-label">kept by the project</div></div>
+      </div>
+    </section>
+
+    <!-- Moving strip -->
+    <div class="mq" role="note" aria-label="Funded so far: roof repairs, blackboards in 15 classrooms, basketball court">
+      <div class="marquee" aria-hidden="true">
+        <div class="mq-set">
+          <span>Roof repairs · 107,000 KSh</span><span class="mq-dot">●</span>
+          <span>Blackboards · 15 classrooms</span><span class="mq-dot">●</span>
+          <span>Basketball court · 2022</span><span class="mq-dot">●</span>
+          <span>Started in Kobe, 2022</span><span class="mq-dot">●</span>
+          <span>Visited Korogocho, July 2025</span><span class="mq-dot">●</span>
+          <span>$0.00 kept by the project</span><span class="mq-dot">●</span>
+        </div>
+        <div class="mq-set">
+          <span>Roof repairs · 107,000 KSh</span><span class="mq-dot">●</span>
+          <span>Blackboards · 15 classrooms</span><span class="mq-dot">●</span>
+          <span>Basketball court · 2022</span><span class="mq-dot">●</span>
+          <span>Started in Kobe, 2022</span><span class="mq-dot">●</span>
+          <span>Visited Korogocho, July 2025</span><span class="mq-dot">●</span>
+          <span>$0.00 kept by the project</span><span class="mq-dot">●</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- How it works -->
+    <section id="how" class="container section">
+      <p class="eyebrow">How it works</p>
+      <h2 class="narrow">The school decides what it needs, and we show you where every dollar goes.</h2>
+      <div class="steps">
+        <div class="reveal">
+          <div class="step-n">01</div>
+          <h3>The school picks a project and prices it</h3>
+          <p>Mr. Edmond, who founded the school, decides what comes next and gets a quote in Kenyan shillings.</p>
+        </div>
+        <div class="reveal">
+          <div class="step-n">02</div>
+          <h3>Students raise the full amount</h3>
+          <p>Most of it comes from bake sales, campus events and direct gifts in Toronto and Kobe.</p>
+        </div>
+        <div class="reveal">
+          <div class="step-n">03</div>
+          <h3>We send the money and post the receipt</h3>
+          <p>Once the school confirms the money arrived and the finished work is photographed, we add it to the ledger below.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="log" class="container section section-tight-bottom">
+      <p class="eyebrow">Projects</p>
+      <h2>What we’ve funded so far</h2>
+      <div class="projects">
+        <article class="card project reveal">
+          <div class="ph ph-card" role="img" aria-label="Photo placeholder: the next project at the school"><span>Photo · the next project, before · 16:10</span></div>
+          <div class="project-body">
+            <div class="project-meta accent">Up next · [KSh AMOUNT]</div>
+            <h3>[Next project, once priced]</h3>
+            <p>We’re choosing the next project with the school now. It will show up here with a running total once we have the quote.</p>
+            <div class="progress">
+              <div class="track" role="progressbar" aria-label="Raised toward goal" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="bar" style="width: 0%"></div></div>
+              <div class="progress-label">$0 of $[GOAL] raised</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card project reveal">
+          <div class="ph ph-card" role="img" aria-label="Photo placeholder: new roof over the ICT classroom"><span>Photo · new roof, ICT classroom · 16:10</span></div>
+          <div class="project-body">
+            <div class="project-meta">Funded Oct 2024 · 107,000 KSh (about $1,130 CAD)</div>
+            <h3>Roof repairs</h3>
+            <p>The roofs over the ICT classroom and the food store leaked every rainy season. The money paid for new iron sheets, timber and ceiling boards, and for repainting the damaged walls.</p>
+          </div>
+        </article>
+
+        <article class="card project reveal">
+          <div class="ph ph-card" role="img" aria-label="Photo placeholder: a classroom with a new blackboard"><span>Photo · blackboard from the back row · 16:10</span></div>
+          <div class="project-body">
+            <div class="project-meta">Funded [YEAR] · $821 CAD</div>
+            <h3>Blackboards in all 15 classrooms</h3>
+            <p>We first wanted to fund computers, but Mr. Edmond asked for blackboards because students at the back couldn’t read the cracked ones. One bake sale with RCIG at U of T covered all fifteen.</p>
+          </div>
+        </article>
+
+        <article class="card project reveal">
+          <div class="ph ph-card" role="img" aria-label="Photo placeholder: the basketball court in use"><span>Photo · court after school · 16:10</span></div>
+          <div class="project-body">
+            <div class="project-meta">Funded 2022 · $[AMOUNT] CAD</div>
+            <h3>Basketball court</h3>
+            <p>A flat, lined court in a neighbourhood with very little open space. It was our first project, funded by students in Kobe.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Ledger -->
+    <section id="ledger" class="container section section-ledger">
+      <div class="ledger-head">
+        <div>
+          <p class="eyebrow">Ledger</p>
+          <h2 class="flush">Every dollar raised and sent</h2>
+        </div>
+        <p class="ledger-note">The school confirms every transfer we send. If you’d like the invoice behind any line, <a href="mailto:grapesyardproject@gmail.com">email us</a>.</p>
+      </div>
+      <div class="ledger-box reveal">
+        <table class="ledger">
+          <caption class="sr-only">Grapesyard Project ledger, Canadian dollars</caption>
+          <thead>
+            <tr><th scope="col">Date</th><th scope="col">Entry</th><th scope="col" class="amt">Amount (CAD)</th></tr>
+          </thead>
+          <tbody>
+            <tr><td class="date">2022</td><td>Sent: basketball court</td><td class="amt">−[AMOUNT]</td></tr>
+            <tr><td class="date">[DATE]</td><td>Raised: bake sale with RCIG, U of T</td><td class="amt in">+821.00</td></tr>
+            <tr><td class="date">[DATE]</td><td>Sent: blackboards, 15 classrooms</td><td class="amt">−821.00</td></tr>
+            <tr><td class="date">Jul to Oct 2024</td><td>Raised: repair fundraiser, Toronto and Kobe (107,000 KSh)</td><td class="amt in">+1,130.00</td></tr>
+            <tr><td class="date">Oct 2024</td><td>Sent: roof repairs, ICT classroom and food store</td><td class="amt">−1,130.00</td></tr>
+          </tbody>
+          <tfoot>
+            <tr><td></td><th scope="row">Kept by the project</th><td class="amt accent">0.00</td></tr>
+          </tfoot>
+        </table>
+      </div>
+    </section>
+
+    <!-- About / founder note -->
+    <section id="note" class="container section-note">
+      <div class="note reveal">
+        <div class="note-side">
+          <p class="eyebrow">About</p>
+          <h2 class="note-title">Why we keep it small</h2>
+          <div class="founder">
+            <div class="ph avatar" role="img" aria-label="Photo placeholder: Ricky"></div>
+            <div><b>Ricky</b><br><span class="muted">Founder</span></div>
+          </div>
+        </div>
+        <div class="note-body">
+          <p>I started the Grapesyard Project in 2022 as a student at Canadian Academy in Kobe, and it’s now run from the University of Toronto. We keep it small on purpose: one school, one project at a time, and every transfer posted publicly.</p>
+          <p>The school makes the calls, which is why the blackboards came before the computers. Grapesyard School was founded in 1999 and teaches about 1,400 students from nursery through junior secondary.</p>
+          <p>If you’d like to see the paperwork behind any line on the ledger, email me and I’ll send it.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Get involved -->
+    <section id="involved" class="container section">
+      <p class="eyebrow">Get involved</p>
+      <h2 class="h2-sm-gap">Three ways to help</h2>
+      <div role="tablist" aria-label="Ways to get involved" class="tabs">
+        <button role="tab" id="tab-people" aria-controls="panel-people" aria-selected="true" class="tab">Individuals</button>
+        <button role="tab" id="tab-groups" aria-controls="panel-groups" aria-selected="false" tabindex="-1" class="tab">Teams and companies</button>
+        <button role="tab" id="tab-schools" aria-controls="panel-schools" aria-selected="false" tabindex="-1" class="tab">Schools and clubs</button>
+      </div>
+      <div class="tab-box">
+        <div role="tabpanel" id="panel-people" aria-labelledby="tab-people" class="panel">
+          <div class="panel-main">
+            <h3>Give to the next project</h3>
+            <p>Your gift goes toward the next project the school has priced. Once it’s fully funded, we send the money and add it to the ledger.</p>
+            <a class="btn" href="[DONATION LINK]" rel="noopener noreferrer">Fund the next project</a>
+          </div>
+          <p class="panel-aside">We’re not a registered charity yet, so gifts aren’t tax deductible in Canada or the US.</p>
+        </div>
+        <div role="tabpanel" id="panel-groups" aria-labelledby="tab-groups" class="panel" hidden>
+          <div class="panel-main">
+            <h3>Fund a whole project as a team</h3>
+            <p class="tight">Your team takes on one project from the school’s list by itself. You get your own line on the ledger, a copy of the invoice and transfer confirmation, and photos of the finished work.</p>
+            <p class="small">Open request: Grade 9 furniture and materials, 582,000 KSh (about $6,250 CAD). [CONFIRM STATUS]</p>
+            <a class="btn" href="mailto:grapesyardproject@gmail.com">Email us about a project</a>
+          </div>
+          <p class="panel-aside">We can’t issue tax receipts yet. [FISCAL SPONSOR STATUS, once confirmed]</p>
+        </div>
+        <div role="tabpanel" id="panel-schools" aria-labelledby="tab-schools" class="panel" hidden>
+          <div class="panel-main">
+            <h3>Run a fundraiser at your school or club</h3>
+            <p>The blackboards came from a single bake sale. Tell us about your group and we’ll suggest a project that fits, then record what you raise under your group’s name.</p>
+            <a class="btn" href="mailto:grapesyardproject@gmail.com">Start a fundraiser</a>
+          </div>
+          <div class="ph ph-panel" role="img" aria-label="Photo placeholder: the RCIG bake sale table"><span>Photo · bake sale at U of T · 4:3</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="container container-narrow section section-faq">
+      <p class="eyebrow">FAQ</p>
+      <h2 class="h2-sm-gap">Common questions</h2>
+      <div class="faq-list">
+        <details class="faq">
+          <summary><span>Where does the money go?</span><span class="chev" aria-hidden="true">+</span></summary>
+          <p>It goes to Grapesyard School for one repair or piece of equipment that the school has chosen and priced. Each transfer is on the ledger with the date, the amount and what it paid for.</p>
+        </details>
+        <details class="faq">
+          <summary><span>Is this a registered charity?</span><span class="chev" aria-hidden="true">+</span></summary>
+          <p>Not yet. We’re a student-run project that started in 2022 at Canadian Academy in Kobe and is now run from the University of Toronto, so gifts aren’t tax deductible.</p>
+        </details>
+        <details class="faq">
+          <summary><span>Who decides what gets funded?</span><span class="chev" aria-hidden="true">+</span></summary>
+          <p>The school does. Mr. Edmond tells us what’s needed and in what order, and we raise money for one project at a time.</p>
+        </details>
+        <details class="faq">
+          <summary><span>Can I see proof of a transfer?</span><span class="chev" aria-hidden="true">+</span></summary>
+          <p>Yes. Email grapesyardproject@gmail.com with the ledger line you want to check, and we’ll send the invoice and the school’s confirmation.</p>
+        </details>
+        <details class="faq">
+          <summary><span>How is this connected to Grapesyard Organization?</span><span class="chev" aria-hidden="true">+</span></summary>
+          <p>Grapesyard School is run by Grapesyard Organization, a Kenyan nonprofit founded by Mr. Edmond Oloo. The Grapesyard Project is a separate student group that raises money for specific projects at the school.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Further reading -->
+    <section id="links" class="container section-links">
+      <p class="eyebrow">Further reading</p>
+      <h2 class="h2-xs-gap">The school and its partners</h2>
+      <p class="links-intro">Other people have written about Grapesyard School and the groups that work alongside it in Korogocho. Each link opens in a new tab.</p>
+      <div class="links">
+        <a class="card link-card reveal" href="https://chalice.ca/grapesyard-education-centre" target="_blank" rel="noopener noreferrer">
+          <div class="link-src">chalice.ca</div>
+          <div class="link-title">Grapesyard Education Centre</div>
+          <p>A school profile from Chalice, a Canadian charity whose School Connections program has supported Grapesyard.</p>
+        </a>
+        <a class="card link-card reveal" href="https://www.standardmedia.co.ke/evewoman/living/article/2000031697/home-throws-a-lifeline-to-orphans-in-slums-through-education-sports" target="_blank" rel="noopener noreferrer">
+          <div class="link-src">The Standard, Kenya</div>
+          <div class="link-title">How Grapesyard started</div>
+          <p>A feature on Mr. Oloo, the children's home in Utawala, and the school's beginnings with one teacher and three classes.</p>
+        </a>
+        <a class="card link-card reveal" href="https://www.aliceforchildren.it" target="_blank" rel="noopener noreferrer">
+          <div class="link-src">aliceforchildren.it</div>
+          <div class="link-title">Alice for Children</div>
+          <p>An Italian NGO and long-time partner of Grapesyard, working in Korogocho, Dandora and Kariobangi since 2006.</p>
+        </a>
+        <a class="card link-card reveal" href="https://www.fondazionemilan.org/en/the-projects/fondazione-milan-per-alice-for-children/" target="_blank" rel="noopener noreferrer">
+          <div class="link-src">Fondazione Milan</div>
+          <div class="link-title">Alice Village</div>
+          <p>The Alice for Children village in Nairobi, where a home was built for orphaned children from the city's informal settlements.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Closing CTA -->
+    <section class="container section-cta">
+      <div class="cta reveal">
+        <div class="streaks" aria-hidden="true">
+          <span class="streak wide s5"></span><span class="streak s1"></span><span class="streak s3"></span>
+        </div>
+        <div class="cta-copy">
+          <h2>The next project is being priced now.</h2>
+          <p>It goes up here with a running total as soon as the school confirms the quote.</p>
+        </div>
+        <a class="btn cta-btn" href="[DONATION LINK]" rel="noopener noreferrer">Fund the next project</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="footer-brand">Grapesyard</span>
+      <div class="footer-links">
+        <a class="nl" href="mailto:grapesyardproject@gmail.com">grapesyardproject@gmail.com</a>
+        <a class="nl" href="https://www.instagram.com/grapesyardproject/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a class="nl" href="https://www.facebook.com/Grapesyard-Project-106847111356524" target="_blank" rel="noopener noreferrer">Facebook</a>
+      </div>
+      <span class="footer-legal">© 2026 The Grapesyard Project · not a registered charity</span>
+    </div>
+  </footer>
+
+</div>
+<script src="main.js"></script>
+</body>
+</html>
